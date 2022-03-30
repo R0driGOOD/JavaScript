@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            padding: 100px;
+            max-width: 400px;
+            min-width: 100px;
+            border: 1px solid;
+            background-color: lightcoral;
+            border-radius: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="money">
+        <h1>interaja...</h1>
+    </div>
+</body>
+<script>
+    var a = window.document.getElementById('money')
+    a.addEventListener('mouseenter', entrou)
+    a.addEventListener('mouseout', sair)
+    a.addEventListener('click', clicou)
+    function entrou() {
+        a.style.background = 'blue'
+        a.innerText = 'entrou'
+
+    }
+    //SE LEMBRE DE SELECIONAR A VARIAVEL SEU ZÉ SHIBATA
+    //E CUIDADO COM OS COMANDOS.
+    function sair() {
+        a.style.background = 'white'
+        a.innerText = 'Volta aew vacilão'
+
+    }
+    function clicou() {
+        a.style.background = 'pink'
+        a.innerText = 'YAMETE KUDASAI'
+    }
+
+
+</script>
+
+</html>

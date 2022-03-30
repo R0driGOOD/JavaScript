@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            width: 7%;
+            height: 4%;
+            min-width: 40px;
+            min-height: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Clique no botão</h1>
+    <!--A tag button tem um evento(onclick) que é ancorado pela palavra clicou().
+    dentro da tag script(o JS do site) essa ancora é usada para desencadear uma linha de codigo em resposta 
+a exitação do evento.-->
+    <button onclick="clicou()">clique aqui</button>
+    <script>
+        var nome = window.prompt('Qual é seu nome meu caro?')
+        window.alert(`Seja bem-vindo ao meu site ${nome}!`)
+        
+        function clicou() {
+            window.alert('Voce clicou no botão!')
+        }
+        
+    </script>
+</body>
+
+</html>

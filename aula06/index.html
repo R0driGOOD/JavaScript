@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos do DOM</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Iniciando os estudos em DOM</h1>
+    <p>
+        aprendendo a usa o <strong>DOM</strong>. Não perca essas aulas.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam debitis provident id vitae ut sequi ipsa, tempore
+        asperiores harum minus culpa praesentium enim odit tempora deleniti, nobis velit alias corrupti?</p>
+    <div>
+        clique aqui
+
+    </div>
+
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]
+        p1.style.color = 'white'
+    p1.style.background = 'black'
+    
+    </script>
+</body>
+
+</html>
