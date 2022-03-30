@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculando o troco</h1>
+    <button id="botao" onclick="troco()">Inicie o desafio</button>
+    <script>
+        function troco(){
+            var produto = window.prompt('Que produto voce deseja comprar?')
+            var preco = window.prompt(`Quanto custa o ${produto} em questão?`)
+            var money = window.prompt(`E qual valor foi desenbolsado no ato de pagamento do ${produto}?`)
+            var troco = (money - preco)
+            window.alert(`Voce comprou o ${produto}.Que custou R$${preco}.00.E entregou R$${money}. Seu troco é R$${troco}. `)
+        }
+    </script>
+    
+</body>
+</html>
