@@ -1,0 +1,20 @@
+
+//variaveis
+var r = 1
+// Condições
+while(r <= 10){
+    r++
+    r--
+    console.log('Tu se f%#$')
+}
+
+/*
+// Faça {} enquanto (condição X)
+// variaveis
+var x = 1
+//Condiçoes
+do{
+    console.log(`Passo ${x}`)
+    x++
+
+}while(x <= 15)*/

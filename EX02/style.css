@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Rubik+Glitch & display=swap');
+
+
+
+:root {
+    --fonte01: 'Rubik Glitch', cursiva;
+
+    --cor01: #343BE0;
+    --cor02: #40F7B3;
+    --cor03: #F79740;
+}
+
+body {
+    background-image: linear-gradient(to right, var(--cor02), var(--cor01));
+}
+
+header>h1 {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+section {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.397);
+
+}
+
+section>div>p {
+    font-size: 1.2em;
+    padding: 3px 3px --10px 3px;
+    text-align: justify;
+    font-family: var(--fonte02);
+
+}
+
+section>button {
+    color: aquamarine;
+}
+
+div#res {
+    background-color: beige;
+    padding: 6px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.219);
+}
+
+section>button {
+    text-align: center;
+    margin: auto;
+}
+
+input {
+    padding: 2px;
+    background-color: whitesmoke;
+}
+
+footer {
+    text-align: center;
+    font-family: var(--fonte02);
+}
